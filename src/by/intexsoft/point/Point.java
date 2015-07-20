@@ -15,8 +15,10 @@ public class Point {
     public void move(Direction d) {
         rowIndex += d.dj;
         columnIndex += d.di;
+    }
 
-        System.out.println("(" + rowIndex + "," + columnIndex + ")");
-
+    @Override
+    public String toString() {
+        return "(" + rowIndex + "," + columnIndex + ")";
     }
 }
