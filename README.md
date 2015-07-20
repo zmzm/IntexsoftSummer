@@ -8,3 +8,5 @@ https://github.com/zmzm/IntexsoftSummer/tree/master/src/by/intexsoft/command
 https://github.com/zmzm/IntexsoftSummer/tree/master/src/by/intexsoft/rectangle
 #4. Point
 https://github.com/zmzm/IntexsoftSummer/tree/master/src/by/intexsoft/point
+#5. Calculator
+https://github.com/zmzm/IntexsoftSummer/tree/master/src/by/intexsoft/calculator
