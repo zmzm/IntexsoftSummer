@@ -5,7 +5,7 @@ package by.intexsoft.point;
  */
 public enum Direction {
 
-    UP(-1,0), DOWN(1,0), LEFT(0,-1), RIGHT(0,1);
+    UP(-1, 0), DOWN(1, 0), LEFT(0, -1), RIGHT(0, 1);
 
     public final int di;
     public final int dj;
@@ -13,5 +13,12 @@ public enum Direction {
     Direction(int di, int dj) {
         this.di = di;
         this.dj = dj;
+    }
+
+    public boolean isOpposite(Direction d) {
+        if (this.di == d.di * -1 || this.dj == d.dj * -1) {
+            return true;
+        }
+        return false;
     }
 }

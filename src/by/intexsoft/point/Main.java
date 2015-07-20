@@ -13,5 +13,7 @@ public class Main {
         System.out.println(point);
         point.move(Direction.RIGHT);
         System.out.println(point);
+
+        System.out.println(Direction.LEFT.isOpposite(Direction.UP));
     }
 }
