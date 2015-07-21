@@ -10,3 +10,5 @@ https://github.com/zmzm/IntexsoftSummer/tree/master/src/by/intexsoft/rectangle
 https://github.com/zmzm/IntexsoftSummer/tree/master/src/by/intexsoft/point
 #5. Calculator
 https://github.com/zmzm/IntexsoftSummer/tree/master/src/by/intexsoft/calculator
+#6. File
+https://github.com/zmzm/IntexsoftSummer/tree/master/src/by/intexsoft/file
