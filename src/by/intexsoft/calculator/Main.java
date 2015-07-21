@@ -13,6 +13,6 @@ public class Main {
         int a = scanner.nextInt();
         int b = scanner.nextInt();
 
-        System.out.println(Operation.valueOf(command).call(a,b));
+        System.out.println(Operation.valueOf(command).call(a, b));
     }
 }
