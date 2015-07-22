@@ -3,6 +3,7 @@ package by.intexsoft.reflection;
 import java.lang.reflect.Field;
 import java.util.Arrays;
 import java.util.Comparator;
+import java.util.List;
 
 /**
  * Created by Admin on 22.07.2015.
@@ -85,21 +86,15 @@ public abstract class AbstractPerson implements Comparable {
         Arrays.sort(fields, new Comparator<Field>() {
             @Override
             public int compare(Field f1, Field f2) {
+                Integer p1 = 0, p2 = 0;
                 if (f1.isAnnotationPresent(MyAnnotation.class) && f2.isAnnotationPresent(MyAnnotation.class)) {
-                    int p1 = f1.getAnnotation(MyAnnotation.class).priority();
-                    int p2 = f2.getAnnotation(MyAnnotation.class).priority();
-
-                    if (p1 < p2) {
-                        return -1;
-                    } else if (p1 > p2) {
-                        return 1;
-                    } else {
-                        return 0;
-                    }
+                    p1 = f1.getAnnotation(MyAnnotation.class).priority();
+                    p2 = f2.getAnnotation(MyAnnotation.class).priority();
                 }
-                return 0;
+                return p1.compareTo(p2);
             }
         });
+
 
         for (Field f : fields) {
             try {
