@@ -12,3 +12,5 @@ https://github.com/zmzm/IntexsoftSummer/tree/master/src/by/intexsoft/point
 https://github.com/zmzm/IntexsoftSummer/tree/master/src/by/intexsoft/calculator
 #6. File
 https://github.com/zmzm/IntexsoftSummer/tree/master/src/by/intexsoft/file
+#7. Reflection/Annotations
+https://github.com/zmzm/IntexsoftSummer/tree/master/src/by/intexsoft/reflection
