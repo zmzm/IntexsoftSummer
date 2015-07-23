@@ -14,3 +14,5 @@ https://github.com/zmzm/IntexsoftSummer/tree/master/src/by/intexsoft/calculator
 https://github.com/zmzm/IntexsoftSummer/tree/master/src/by/intexsoft/file
 #7. Reflection/Annotations
 https://github.com/zmzm/IntexsoftSummer/tree/master/src/by/intexsoft/reflection
+#8. Lambda
+https://github.com/zmzm/IntexsoftSummer/tree/master/src/by/intexsoft/lambda
